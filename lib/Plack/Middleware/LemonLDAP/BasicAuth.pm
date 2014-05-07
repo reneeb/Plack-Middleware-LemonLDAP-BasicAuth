@@ -13,7 +13,7 @@ use SOAP::Lite;
 
 use Plack::Util::Accessor qw(portal cookiename);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub prepare_app {
     my ($self) = shift;
